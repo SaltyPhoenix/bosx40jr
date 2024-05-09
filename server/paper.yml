@@ -16,9 +16,9 @@ effect-modifiers:
   strength: 1.3
   weakness: -0.5
 stackable-buckets:
-  lava: false
-  water: false
-  milk: false
+  lava: true
+  water: true
+  milk: true
 warnWhenSettingExcessiveVelocity: true
 world-settings:
   default:
@@ -48,8 +48,8 @@ world-settings:
       minimum: 45.0
       maximum: 63.0
     max-growth-height:
-      cactus: 3
-      reeds: 3
+      cactus: 8
+      reeds: 5
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
